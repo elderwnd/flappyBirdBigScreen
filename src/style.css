@@ -99,6 +99,8 @@ body{
     left:5px;
     right:5px;
     bottom: 10px;
+	/*-webkit-animation: animBird 300ms steps(4) infinite;
+   animation: animBird 300ms steps(4) infinite;*/
 }
 
 /*Wall.JS*/
@@ -162,4 +164,22 @@ animation: animatedBackground 15s linear infinite;
 	-moz-animation: animatedBackground 15s linear infinite;
 	-webkit-animation: animatedBackground 15s linear infinite;
 	-ms-animation: animatedBackground 15s linear infinite;
-	-o-animation: animatedBackground 15s linear infinite;*/
+	-o-animation: animatedBackground 15s linear infinite;
+
+
+@-webkit-keyframes animBird {
+   from { background-position: 0px 0px; }
+   to { background-position: 0px -96px; }
+}
+@-moz-keyframes animBird {
+   from { background-position: 0px 0px; }
+   to { background-position: 0px -96px; }
+}
+@-o-keyframes animBird {
+   from { background-position: 0px 0px; }
+   to { background-position: 0px -96px; }
+}
+@keyframes animBird {
+   from { background-position: 0px 0px; }
+   to { background-position: 0px -96px; }
+}*/
